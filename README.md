@@ -1,2 +1,2 @@
 # fdrgvgv.Startpage.io
-Startpage for FF Quantum
+Startpage for FF Quantum because Quantum is a piece of shit that loses feature faster than ever
