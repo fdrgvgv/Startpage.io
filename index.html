@@ -5,7 +5,7 @@
 	<title>Start Page</title>
 	
 <!--	to import font from jewgle	-->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body onload="focusonload()">
 
@@ -49,7 +49,7 @@ Can't do both at the same time because of "position:absolute"
 -->
     
 <div id=image>
-    <img src="515395.gif" width="500px">
+    <img src="1669088.gif" width="500px">
     </div>
 	
 	
@@ -64,7 +64,7 @@ Can't do both at the same time because of "position:absolute"
 			<label for="tab2" onclick="">Google</label>
 
 			<input id="tab3" type="radio" name="tabs" onclick="clearForm('FormGoogleI')">
-			<label for="tab3" onclick="" >Google Images</label>
+			<label for="tab3" onclick="" >Yandex</label>
 
 			<div class="content"> 
 				<div id="content1">
@@ -85,10 +85,10 @@ Can't do both at the same time because of "position:absolute"
 				</div>
 
 				<div id="content3">
-					<form id="FormGoogleI" method="get" action="http://images.google.com/images">
-					<input id="InputGoogleI" type="text" name="q" size="31"
-					maxlength="255" value="" onclick="" />
-					<input type="submit" value="Search"/></form>
+					<form action="https://yandex.com/images/search/?&text=" method="get" target="_blank" accept-charset="utf-8" >
+                    <input id="InputGoogleI" type="text" name="text" value="" size="29" maxlength="255" value="" onclick=""/>
+                    <input type="submit" value="Search"/>
+                </form>
 				</div>
 			</div>
 		</div>
